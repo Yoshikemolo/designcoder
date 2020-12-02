@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 
 import { MAT_DATE_LOCALE } from '@angular/material/core';
-import { AngularMaterialModule } from '@angular-material/angular-mmaterial.module';
+import { AngularMaterialModule } from '@material/angular-material.module';
 
 
 @NgModule({
