@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AngularMaterialModule } from '@shared/angular-material.module';
+import { SocialLinksComponent } from './social-links/social-links.component';
+import { ToolsReelComponent } from './tools-reel/tools-reel.component';
 
 // TODO: import my components here
 
@@ -14,7 +16,8 @@ import { AngularMaterialModule } from '@shared/angular-material.module';
   ],
   declarations: [
     // TODO: declare my components
-  ],
+  SocialLinksComponent,
+    ToolsReelComponent],
   exports: [
     // TODO: export my components
   ]
